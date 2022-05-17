@@ -1,0 +1,129 @@
+    1  ls
+    2  ls /etc/perl
+    3  ls /data
+    4  ls/
+    5  ls /
+    6  pwd
+    7  mkdir Learning_unix
+    8  ls
+    9  mkdir Learning_unix ls
+   10  pwd
+   11  ls command_line_course Learning_unix linux_bootcamo
+   12  cd Learning_unix
+   13  pwd
+   14  mkdir Outer_dirctoty
+   15  cd Outer_directory
+   16  cd Outer_dirctoty
+   17  mkdir Inner_directory
+   18  cd Inner_directory
+   19  mkdir -p Outside_dir/Inside_dir
+   20  Learning_unix/Outer_dirctoty/Inner_directory$ cd /
+   21  cd home
+   22  cd Inner directory
+   23  cd Inner_directory
+   24  learning_unix/Outer_dirctoty/Inner_directory$ cd ?
+   25  pwd
+   26  cd home
+   27  /Learning_unix/Outer_dirctoty/Inner_directory$ cd /
+   28  cd home
+   29  cd /home/ubuntu
+   30  pwd
+   31  cd Learning_unix
+   32  cd Outer_dirctoty
+   33  cd Inner directory
+   34  cd Inner_directory
+   35  ls
+   36  pwd
+   37  Learning_unix/Outer_dirctoty/Inner_directory$ cd /
+   38  /$ cd c
+   39  /$ cd User
+   40  Learning_unix/Outer_dirctoty/Inner_directory
+   41  cd c
+   42  cd User
+   43  cd Lungelo
+   44  cd Learning_unix
+   45  cd Learning_unix/
+   46  Learning_unix$ cd ..
+   47  cd c
+   48  cd Learning_unix
+   49  pwd
+   50  cd /
+   51  pwd
+   52  cd ~
+   53  pwd
+   54  cd
+   55  pwd
+   56  cd / c / User
+   57  cd /c/User
+   58  cd/Lungelo
+   59  pwd
+   60  cd Learning_unix
+   61  cd /tmp
+   62  pws
+   63  pwd
+   64  cd Learing_unix
+   65  cd ..
+   66  pwd
+   67  cd /
+   68  cd ~/Learning_unix
+   69  cd ~/Learning_unix/Outer_dirctoty/
+   70  ls ../../
+   71  git config --global user.name "Sphamandla Sanele Hlongwane"
+   72  git config --global user.email sphamandlahlongwane@gmail.com
+   73  git config --global core.autocrlf true
+   74  cd /c/Users/Lungelo/Desktop/git-basic-exercises
+   75  ls -a
+   76  git init 
+   77  la -
+   78  ls -a
+   79  git status
+   80  git status -s
+   81  touch README.md
+   82  ls -a
+   83  git status
+   84  git status -s
+   85  git log
+   86  git add README.md
+   87  git status
+   88  git status -s
+   89  git commit -m "initial commit"
+   90  git log
+   91  nano README.md 
+   92  cat README.md
+   93  git status 
+   94  git status -s
+   95  git add README.md
+   96  git status -s
+   97  git commit -m "second commit"
+   98  git log
+   99  nano README.md 
+  100  cat README.md
+  101  git status -s
+  102  git add README.md 
+  103  git status -s
+  104  git commit -m "third commit"
+  105  git log
+  106  git checkout 82914dd17f57e203408744b240209dd4d0205381
+  107  cat README.md
+  108  git checkout master
+  109  cat README.md 
+  110  git branch
+  111  git checkout -b milkshake-flavours
+  112  git branch
+  113  git branch 
+  114  git checkout master
+  115  git branch
+  116  git checkout milkshake-flavours
+  117  nano milkshakes.md
+  118  git status -s
+  119  git add milkshakes.md
+  120  git status -s
+  121  git commit -m "added initial flavours"
+  122  git log
+  123  git checkout master
+  124  git branch
+  125  git checkout -b history
+  126  git checkout master
+  127  git log 
+  128  git branch
+  129  history > history.txt
